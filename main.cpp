@@ -66,7 +66,7 @@ int main(int argc, char** argv) {
     pointer[1] = &astrick;
     pointer[2] = &plus;
     
-    for(int i = 0;i < 10; i++)
+    for(int i = 0;i < sizeof(pointer); i++)
     {
         pointer[i] -> draw();
     }
